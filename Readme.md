@@ -12,6 +12,8 @@ File watching and live reloading are hard. I haven't had any luck with the exist
 
 They work really well together! Yay, UNIX philosophy!
 
+As for the livereload client, you need to install the [browser extension](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-) or add the livereload script tag [manually](http://feedback.livereload.com/knowledgebase/articles/86180-how-do-i-add-the-script-tag-manually-).
+
 ## Installation
 
 Drudge is a [node.js](http://nodejs.org) program, so you want to to install that first.
