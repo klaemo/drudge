@@ -1,0 +1,37 @@
+{
+  "name": "drudge",
+  "version": "1.0.0",
+  "description": "Drudge watches and serves your files while also acting as a LiveReload server",
+  "main": "index.js",
+  "bin": {
+    "drudge": "bin.js"
+  },
+  "dependencies": {
+    "chokidar": "^0.11.1",
+    "commander": "^2.5.0",
+    "debug": "^2.1.0",
+    "st": "^0.5.2",
+    "tiny-lr": "^0.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/klaemo/drudge"
+  },
+  "keywords": [
+    "server",
+    "livereload",
+    "watch",
+    "development",
+    "static"
+  ],
+  "author": "Clemens Stolle <klaemo@fastmail.fm>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klaemo/drudge/issues"
+  },
+  "homepage": "https://github.com/klaemo/drudge"
+}
