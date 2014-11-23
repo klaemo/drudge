@@ -31,7 +31,11 @@ module.exports = function (options) {
   var logChange = debug('drudge:change')
   var logReq = debug('drudge:req')
 
-  var watcher = chokidar.watch(opts.dir, { ignoreInitial: true, persistent: true })
+  var watcher = chokidar.watch(opts.dir, {
+    ignoreInitial: true,
+    ignored: /[\/\\]\./,
+    persistent: true
+  })
 
   log('Watching %s', opts.dir)
   watcher
