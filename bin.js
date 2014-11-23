@@ -12,7 +12,7 @@ program
   .option('-q, --quiet', 'Turn off logging')
   .parse(process.argv)
 
-process.env.DEBUG = process.env.DEBUG || 'server,server:change'
+process.env.DEBUG = process.env.DEBUG || 'drudge,drudge:change'
 
 if (program.quiet) process.env.DEBUG = false
 

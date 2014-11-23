@@ -27,9 +27,9 @@ module.exports = function (options) {
 
   opts.dir = path.resolve(process.cwd(), opts.dir)
 
-  var log = debug('server')
-  var logChange = debug('server:change')
-  var logReq = debug('server:req')
+  var log = debug('drudge')
+  var logChange = debug('drudge:change')
+  var logReq = debug('drudge:req')
 
   var watcher = chokidar.watch(opts.dir, { ignoreInitial: true, persistent: true })
 
