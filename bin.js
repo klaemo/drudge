@@ -5,7 +5,7 @@ var drudge = require('./')
 
 program
   .version(require('./package.json').version)
-  .option('-d, --dir [DIRECTORY]', 'Serve the contents of DIRECTORY (default=cwd/public)')
+  .option('-d, --dir [DIRECTORY]', 'Serve the contents of DIRECTORY (default=cwd)')
   .option('-i, --index [INDEX]', 'Use the specified INDEX filename as the result when a directory is requested (default=index.html)')
   .option('-p, --port [PORT]', 'Listen on PORT (default=3000)', parseInt)
   .option('-t, --passthrough', 'Return INDEX for missing files instead of 404')

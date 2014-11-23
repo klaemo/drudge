@@ -10,7 +10,7 @@ var defaults = {
   index: 'index.html',
   port: 3000,
   lrPort: 35729,
-  dir: path.resolve(process.cwd(), 'public')
+  dir: process.cwd()
 }
 
 module.exports = function (options) {

@@ -33,7 +33,7 @@ Usage: bin [options]
 
     -h, --help             output usage information
     -V, --version          output the version number
-    -d, --dir [DIRECTORY]  Serve the contents of DIRECTORY (default=cwd/public)
+    -d, --dir [DIRECTORY]  Serve the contents of DIRECTORY (default=cwd)
     -i, --index [INDEX]    Use the specified INDEX filename as the result when a directory is requested. (default=index.html)
     -p, --port [PORT]      Listen on PORT (default=3000)
     -t, --passthrough      Return INDEX for missing files instead of 404.
@@ -53,7 +53,7 @@ drudge -d static -p 1337 -t
 
 or combine it with watchify to reload your bundled javascript:
 ```
-watchify index.js -o public/bundle.js & drudge
+watchify index.js -o public/bundle.js & drudge -d public
 ```
 Now everytime you change a file in your project, watchify will update the bundle and drudge will subsequently trigger a reload in the browser.
 
