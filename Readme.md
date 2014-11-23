@@ -1,4 +1,7 @@
 # Drudge
+
+**drudge** - *NOUN* someone who has to do a lot of boring and unpleasant work
+
 Drudge watches and serves your files while also acting as a [LiveReload](http://livereload.com/) server.
 
 File watching and live reloading are hard. I haven't had any luck with the existing solutions. So, I perused [npm](https://www.npmjs.org) and pulled together the most popular modules for the respective jobs:
