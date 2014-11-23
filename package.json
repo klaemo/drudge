@@ -1,6 +1,6 @@
 {
   "name": "drudge",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Drudge watches and serves your files while also acting as a LiveReload server",
   "main": "index.js",
   "bin": {
